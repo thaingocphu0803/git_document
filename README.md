@@ -19,10 +19,8 @@
 17. **git rebase <branch_name>** đưa code của branh chỉ định vào branch hiện tại.
 18. **git remote rm origin** xóa tất cả remote kết nối với local.
 19. **git remote add origin <remote_name> <commit_hash>**: khôi phục lại branch đã xóa với commit hash.
-
 20. **git chery-pick <commit_hash>** chọn 1 commit cụ thể và áp dụng vào nhánh hiện tại. Lưu ý: nếu muốn chọn nhiều nhánh thì mỗi commit hash cách nhau bằng khoảng trắng hoặc **<commit_hash_start>^..<commit_hash_end>** và Sau khi chery-pick xong chỉ cần push.
-
-
-20. **git chery-pick -m 1 --no-commit <commit_hash_start>^..<commit_hash_end>** chọn các commit cụ thể và áp dụng vào nhánh hiện tại trong trường hợp 1 số commit bị pull request. Lưu ý:  Sau khi chery-pick xong phải add và commit lại rồi mới push.
+21. **git chery-pick -m 1 --no-commit <commit_hash_start>^..<commit_hash_end>** chọn các commit cụ thể và áp dụng vào nhánh hiện tại trong trường hợp 1 số commit bị pull request. Lưu ý:  Sau khi chery-pick xong phải add và commit lại rồi mới push.
+22. **git remote remove origin** xóa remote hiện tại ở local 
 
 
