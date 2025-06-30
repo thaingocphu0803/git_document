@@ -1,7 +1,7 @@
 <h3 align="center">GIT DOCUMENT</h3>
 
 1. **git init** tạo git respository ở local.
-2. **git remote add origin <remote_name>** kết nối respository ở local với respository trên git.
+2. **git remote add origin <remote_url>** kết nối respository ở local với respository trên git.
 3. **git checkout -b <branch_name>** tạo một nhánh mới từ trạng thái của nhánh hiện tại nhánh hiện tại.
 4. **git checkout <branch_name>** chuyển sang nhánh đã có.
 5. **git status** xem các file thay đổi trong branch hiện tại.
